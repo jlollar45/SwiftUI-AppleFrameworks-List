@@ -15,6 +15,7 @@
 		4CAD2DCD26D301C60027D6A7 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD2DCC26D301C60027D6A7 /* FrameworkDetailView.swift */; };
 		4CAD2DCF26D304230027D6A7 /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD2DCE26D304230027D6A7 /* AFButton.swift */; };
 		4CAD2DD126D308820027D6A7 /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD2DD026D308820027D6A7 /* FrameworkGridViewModel.swift */; };
+		4CAD2DD326D30E5B0027D6A7 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD2DD226D30E5B0027D6A7 /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4CAD2DCC26D301C60027D6A7 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		4CAD2DCE26D304230027D6A7 /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 		4CAD2DD026D308820027D6A7 /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		4CAD2DD226D30E5B0027D6A7 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				4CAD2DBD26D2F0ED0027D6A7 /* Assets.xcassets */,
 				4CAD2DC826D2F1590027D6A7 /* Framework.swift */,
 				4CAD2DCC26D301C60027D6A7 /* FrameworkDetailView.swift */,
+				4CAD2DD226D30E5B0027D6A7 /* SafariView.swift */,
 				4CAD2DCA26D2F2F80027D6A7 /* FrameworkGridView.swift */,
 				4CAD2DD026D308820027D6A7 /* FrameworkGridViewModel.swift */,
 				4CAD2DC226D2F0ED0027D6A7 /* Info.plist */,
@@ -156,6 +159,7 @@
 				4CAD2DCF26D304230027D6A7 /* AFButton.swift in Sources */,
 				4CAD2DBA26D2F0EA0027D6A7 /* SwiftUI_AppleFrameworksApp.swift in Sources */,
 				4CAD2DD126D308820027D6A7 /* FrameworkGridViewModel.swift in Sources */,
+				4CAD2DD326D30E5B0027D6A7 /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
