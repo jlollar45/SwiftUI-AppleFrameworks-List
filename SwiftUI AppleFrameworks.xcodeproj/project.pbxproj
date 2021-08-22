@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		4CAD2DBA26D2F0EA0027D6A7 /* SwiftUI_AppleFrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD2DB926D2F0EA0027D6A7 /* SwiftUI_AppleFrameworksApp.swift */; };
-		4CAD2DBC26D2F0EA0027D6A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD2DBB26D2F0EA0027D6A7 /* ContentView.swift */; };
 		4CAD2DBE26D2F0ED0027D6A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD2DBD26D2F0ED0027D6A7 /* Assets.xcassets */; };
 		4CAD2DC126D2F0ED0027D6A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD2DC026D2F0ED0027D6A7 /* Preview Assets.xcassets */; };
+		4CAD2DC926D2F1590027D6A7 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD2DC826D2F1590027D6A7 /* Framework.swift */; };
+		4CAD2DCB26D2F2F80027D6A7 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD2DCA26D2F2F80027D6A7 /* FrameworkGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4CAD2DB626D2F0EA0027D6A7 /* SwiftUI AppleFrameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI AppleFrameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CAD2DB926D2F0EA0027D6A7 /* SwiftUI_AppleFrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_AppleFrameworksApp.swift; sourceTree = "<group>"; };
-		4CAD2DBB26D2F0EA0027D6A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4CAD2DBD26D2F0ED0027D6A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CAD2DC026D2F0ED0027D6A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4CAD2DC226D2F0ED0027D6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CAD2DC826D2F1590027D6A7 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		4CAD2DCA26D2F2F80027D6A7 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				4CAD2DB926D2F0EA0027D6A7 /* SwiftUI_AppleFrameworksApp.swift */,
-				4CAD2DBB26D2F0EA0027D6A7 /* ContentView.swift */,
+				4CAD2DCA26D2F2F80027D6A7 /* FrameworkGridView.swift */,
+				4CAD2DC826D2F1590027D6A7 /* Framework.swift */,
 				4CAD2DBD26D2F0ED0027D6A7 /* Assets.xcassets */,
 				4CAD2DC226D2F0ED0027D6A7 /* Info.plist */,
 				4CAD2DBF26D2F0ED0027D6A7 /* Preview Content */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CAD2DBC26D2F0EA0027D6A7 /* ContentView.swift in Sources */,
+				4CAD2DCB26D2F2F80027D6A7 /* FrameworkGridView.swift in Sources */,
+				4CAD2DC926D2F1590027D6A7 /* Framework.swift in Sources */,
 				4CAD2DBA26D2F0EA0027D6A7 /* SwiftUI_AppleFrameworksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,9 +271,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI AppleFrameworks/Preview Content\"";
-				DEVELOPMENT_TEAM = UTWXQAE394;
+				DEVELOPMENT_TEAM = Y58Z2JJ8PD;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI AppleFrameworks/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -279,6 +284,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.parkingpal.SwiftUI-AppleFrameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "SwiftUI Apple Frameworks Provisioning Profile";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
